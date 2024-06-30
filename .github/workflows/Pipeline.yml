@@ -24,6 +24,8 @@ jobs:
       run: npm run test:unit
     - name: Display SoftUni username
       run: echo 'daniovcharov'
+    - name: Install playwright browsers
+      run: npx playwright install
     - name: Start the app
       run: npm run start &
     - name: Execute the UI tests
