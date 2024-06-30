@@ -24,5 +24,9 @@ jobs:
       run: npm run test:unit
     - name: Display SoftUni username
       run: echo 'daniovcharov'
+    - name: Start the app
+      run: npm run start &
+    - name: Execute the UI tests
+      run: npm run test:ui
       
     
