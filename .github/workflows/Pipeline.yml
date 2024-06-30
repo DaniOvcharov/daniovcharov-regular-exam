@@ -23,7 +23,7 @@ jobs:
     - name: Execute unit tests
       run: npm run test:unit
     - name: Display SoftUni username
-      run: echo 'daniovcharov'
+      run: echo 'dani.ovcharov'
     - name: Install playwright browsers
       run: npx playwright install
     - name: Start the app
